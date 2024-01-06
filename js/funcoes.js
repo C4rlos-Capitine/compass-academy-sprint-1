@@ -23,7 +23,20 @@ function verificar() {
     }
 }
 
-
+function verificar_digitos(value) {
+    console.log(value);
+    if(value.length<4 || value.length>4){
+        if(value.length==3){
+            input_message.innerHTML = "quase lá";
+            input_message.style.color = "orange";
+        }
+        input_message.innerHTML = "deve ser 4 digitos";
+        input_message.style.color = "red";
+    }else{
+        input_message.innerHTML = "digitos certos"
+        input_message.style.color = "green";
+    }
+}
 
 function gerador_de_pin() {
     pin = Math.floor(Math.random() * (9999 - 1000 + 1) + 1000);

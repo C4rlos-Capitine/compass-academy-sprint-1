@@ -13,11 +13,11 @@
     <div class="card rounded-none">
         <div class="mb-5">
             <label  class="block">Informe o seu pin</label>
-            <input class="border border-gray-300 p-1" type="number" name="pin" id="pin"  placeholder="4 digitos"/>
+            <input class="border border-gray-300 p-1" type="number" name="pin" id="pin" onkeyup="verificar_digitos(this.value)" placeholder="4 digitos"/>
             <br>
             <small id="input-msg"></small>
         </div>
-        <button id="bt-verificar"  class="rounded bg-blue-800 text-white px-4 py-2">Verificar</button>
+        <button id="bt-verificar" onclick="verificar()" class="rounded bg-blue-800 text-white px-4 py-2">Verificar</button>
     
     </div>
     
