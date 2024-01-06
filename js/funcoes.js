@@ -11,25 +11,20 @@ function verificar() {
     value = document.getElementById("pin").value;
     console.log("input: "+value)
     if (pin == Number(value)) {
-        //alert("Certo");
+
         msg.innerHTML = '  <div class="bg-green-200 p-3">Certo!!!</div>'
         gerador_de_pin();
     } else if (pin > Number(value)) {
-        //alert("É maior que este");
+
         msg.innerHTML = '  <div class="bg-red-200 p-3">É maior que este!!!</div>'
     } else {
-        //alert("É menor que este");
+
         msg.innerHTML = '  <div class="bg-red-200 p-3">É menor que este!!!</div>'
     }
 }
 
 function verificar_digitos(value) {
-    console.log(value);
     if(value.length<4 || value.length>4){
-        if(value.length==3){
-            input_message.innerHTML = "quase lá";
-            input_message.style.color = "orange";
-        }
         input_message.innerHTML = "deve ser 4 digitos";
         input_message.style.color = "red";
     }else{
