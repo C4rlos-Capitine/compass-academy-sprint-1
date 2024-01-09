@@ -19,10 +19,10 @@
    boa parte do css é do ficheiro tailwind.min.css (da biblioteca com mesmo nome), e o código gerado pelo desenvolvedor está no ficheiro style.css, os dois ficheiros encontram-se na pasta CSS.
    <h3>3.4. Git & GitHub</h3>
    Estas ferramentas me auxiliaram no controle de versões, por que durante o desenvolvimento houveram várias mudanças.
-<h1>4. Dicas</h1>
+<h2>4. Dicas</h2>
 O número gerado pode ser visto no console.
 
-<h1>5. dificuldades</h1>
+<h2>5. dificuldades</h2>
    tive dificuldades para actualizar o código fonte já no github, consegui actualizar localmente, mas não pude refletir as alterações no github, por que desejava alterar localmente  actualizar com push no github, contudo isto não me impediu de avançar.
    <h2>link do video</h2>
    <p>drive: https://drive.google.com/file/d/1z4JewqImafjQzUvrcI1veqCH9w5UoxmB/view?usp=sharing</p>
