@@ -15,7 +15,7 @@
   <h3> 3.2. Javascript</h3>
    o codigo javascrip está em um ficheiro com nome funcoes na pasta js, neste ficheiro existem as funções (gerar_codigo, verificar, verificar_digitos)
    a function verificar() compara o pin gerado e o pin informado caso seja igual uma mensagem a verde é exibida informando que está certo e um novo pin será gerado.
-   3.3. CSS
+   <h3>3.3. CSS</h3>
    boa parte do css é do ficheiro tailwind.min.css (da biblioteca com mesmo nome), e o código gerado pelo desenvolvedor está no ficheiro style.css, os dois ficheiros encontram-se na pasta CSS.
    
 <h1>4. Dicas</h1>
