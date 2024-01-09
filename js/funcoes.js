@@ -1,6 +1,6 @@
 var pin;
 var input_message;
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () { //A func gerar_pin() chamada logo que abrimos a pagina
     gerar_pin();
     input_message = document.getElementById("input-msg");
 });
