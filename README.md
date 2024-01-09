@@ -17,7 +17,7 @@
    a function verificar() compara o pin gerado e o pin informado caso seja igual uma mensagem a verde é exibida informando que está certo e um novo pin será gerado.
    <h3>3.3. CSS</h3>
    boa parte do css é do ficheiro tailwind.min.css (da biblioteca com mesmo nome), e o código gerado pelo desenvolvedor está no ficheiro style.css, os dois ficheiros encontram-se na pasta CSS.
-   <h3>Git & GitHub</h3>
+   <h3>3.4. Git & GitHub</h3>
    Estas ferramentas me auxiliaram no controle de versões, por que durante o desenvolvimento houveram várias mudanças.
 <h1>4. Dicas</h1>
 O número gerado pode ser visto no console.
