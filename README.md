@@ -24,3 +24,5 @@ O número gerado pode ser visto no console.
 
 <h1>5. dificuldades</h1>
    tive dificuldades para actualizar o código fonte já no github, consegui actualizar localmente, mas não pude refletir as alterações no github, por que desejava alterar localmente  actualizar com push no github, contudo isto não me impediu de avançar.
+   <h2>link do video</h2>
+   <p>drive: https://drive.google.com/file/d/1z4JewqImafjQzUvrcI1veqCH9w5UoxmB/view?usp=sharing</p>
