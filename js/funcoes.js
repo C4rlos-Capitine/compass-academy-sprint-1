@@ -3,6 +3,7 @@ var input_message;
 document.addEventListener('DOMContentLoaded', function () { //A func gerar_pin() chamada logo que abrimos a pagina
     gerar_pin();
     input_message = document.getElementById("input-msg");
+    alert("bem-vindo caro utilizador, o numero já foi gerado");
 });
 
 function verificar() {
