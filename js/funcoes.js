@@ -1,7 +1,7 @@
 var pin;
 var input_message;
 document.addEventListener('DOMContentLoaded', function () {
-    gerador_de_pin();
+    gerar_pin();
     input_message = document.getElementById("input-msg");
 });
 
@@ -12,14 +12,14 @@ function verificar() {
     console.log("input: "+value)
     if (pin == Number(value)) {
 
-        msg.innerHTML = '  <div class="bg-green-200 p-3">Certo!!!</div>'
-        gerador_de_pin();
+        msg.innerHTML = '<div class="bg-green-200 p-3">Certo!!!</div>'
+        gerar_pin();
     } else if (pin > Number(value)) {
 
-        msg.innerHTML = '  <div class="bg-red-200 p-3">É maior que este!!!</div>'
+        msg.innerHTML = '<div class="bg-red-200 p-3">É maior que este!!!</div>'
     } else {
 
-        msg.innerHTML = '  <div class="bg-red-200 p-3">É menor que este!!!</div>'
+        msg.innerHTML = ' <div class="bg-red-200 p-3">É menor que este!!!</div>'
     }
 }
 
@@ -33,7 +33,7 @@ function verificar_digitos(value) {
     }
 }
 
-function gerador_de_pin() {
+function gerar_pin() {
     pin = Math.floor(Math.random() * (9999 - 1000 + 1) + 1000);
     console.log("gerado agora: "+pin);
 }
