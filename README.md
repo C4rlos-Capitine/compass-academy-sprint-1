@@ -1,6 +1,6 @@
 <h1>Sprint 1:Sistema de verificação de PIN.</h1>
 <h2>1. Introdução</h2>
-<p>Está pequeno projecto foi desenvolvido com o objectivo de consolidar os conhecimentos adquiridos no primeiro capitulo do programa de bolsas da compass em parceria com a UP Maputo e a UniRovuma.</p>
+<p>Este pequeno projecto foi desenvolvido com o objectivo de consolidar os conhecimentos adquiridos no primeiro capitulo do programa de bolsas da compass em parceria com a UP Maputo e a UniRovuma.</p>
 <p>Neste trabalho senti - me desafiado a aplicar os conhecimetos de javascript, git & gitHub, e do scrum, porquê o scrum? Este trabalho é uma sprint do scrum, em que por um determinado periodo de tempo estive aprendendo um conteúdo com o objectivo de produzir um resultado, eis o resultado, e também o trabalho foi marcado por reuniões regulares dirigidas pelos intervenientes da metodologia(team, P. Owner e o Scrum Master) para se ter o feedback  do trabalho, isto tudo caracteriza. 
  esta metodologia agil</p>
 <h2>2. Como funciona</h2>
